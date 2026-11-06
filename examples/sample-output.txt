@@ -1,0 +1,9 @@
+--- check all example files ---
+PASS examples/good.md
+FAIL examples/unclosed.md:5: code block opened on line 5 is never closed
+FAIL examples/untagged.md:5: code block has no language tag
+FAIL examples/stray-fence.md:9: stray closing fence (no block is open)
+4 file(s) checked, 1 passed, 3 failed
+--- check the good file alone ---
+PASS examples/good.md
+1 file(s) checked, 1 passed, 0 failed
